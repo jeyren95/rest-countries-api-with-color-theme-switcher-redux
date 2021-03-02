@@ -1,0 +1,26 @@
+.search-bar input {
+  padding: 3% 2% 3% 10% ;
+  width: 80%;
+  border: none;
+  box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
+  border-radius: 6px;
+}
+
+.search-bar i {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: #858585;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .search-bar input {
+    width: 100%;
+    padding: 5% 0 5% 18%;
+    margin-bottom: 12%;
+  }
+  .search-bar i {
+    top: 18px;
+    left: 45px;
+  }
+}

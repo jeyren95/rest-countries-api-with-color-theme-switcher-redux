@@ -1,0 +1,25 @@
+.each-country h5, .each-country span {
+  font-weight: 800;
+}
+
+.each-country h5 {
+  margin-bottom: 8%;
+}
+
+.each-country p {
+  margin-bottom: 2%;
+}
+
+.card {
+  margin-bottom: 30%;
+}
+
+.card-body {
+  padding: 10% 10% 15%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    margin-bottom: 20%;
+  }
+}

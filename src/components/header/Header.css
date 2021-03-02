@@ -1,0 +1,36 @@
+.header {
+  box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
+  padding: 2% 15%;
+}
+
+.header h2 {
+  font-weight: 800;
+}
+
+.header p {
+  float: right;
+  font-weight: 600;
+}
+
+.header i {
+  padding-right: 10%;
+}
+
+.dark-mode {
+  background-color: #2b3945 !important;
+  color: white !important;
+}
+
+.darker-mode {
+  background-color: #202c37 !important;
+  color: white !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    padding: 10% 3% 5%;
+  }
+  .header h2 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,29 @@
+.country-details {
+  padding: 2% 15%;
+  height: 100vh;
+}
+
+.country-details img {
+  width: 90%;
+  height: auto;
+}
+
+.country-details h1, .country-details span {
+  font-weight: 800;
+}
+
+.country-details h1 {
+  margin-bottom: 5%;
+}
+
+.back-button {
+  margin-bottom: 3%;
+  border: none;
+  box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
+  padding: 0.5% 3%;
+}
+
+.arrow {
+  position: relative;
+  right: 12%;
+}
