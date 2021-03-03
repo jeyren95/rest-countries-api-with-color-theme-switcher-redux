@@ -12,16 +12,18 @@ const lookup = require("country-code-lookup");
 
 class CountryDetails extends React.Component {
   componentDidMount() {
+    window.scrollTo(0,0);
     if (!this.props.desiredCountry) {
       this.props.inputDesiredCountry(this.props.match.params.country);    //remember that we have to make each component able to work independently of each other
-      this.props.searchCountry();                                         //this.props.match.params.country is the prop that was passed down from the App component
-                                                                         //it gives us access to the variable ":country" that was typed in by the user in the url
+      this.props.searchCountry();                                         //this.props.match.params.country is the prop that was passed down from the App component                                                                         //it gives us access to the variable ":country" that was typed in by the user in the url
     }
   }
+
 
   renderBorderCountries() {
     return this.props.searchedCountry.borders.map((borderCode) => {
       const borderName = lookup.byIso(borderCode).country
+
       return (
         <BorderButton
         borderName={borderName}
@@ -43,6 +45,7 @@ class CountryDetails extends React.Component {
               <i className="arrow left icon"></i>Back
             </button>
           </Link>
+
           <div className="row">
             <div className="col-lg-6 country-flag">
               <img src={this.props.searchedCountry.flag} alt="flag"></img>
@@ -50,7 +53,7 @@ class CountryDetails extends React.Component {
 
             <div className="col-lg-6 details">
               <div className="name">
-                <h1>{this.props.searchedCountry.name}</h1>
+                <h2>{this.props.searchedCountry.name}</h2>
               </div>
               <div className="row">
                 <div className="col-lg-6">

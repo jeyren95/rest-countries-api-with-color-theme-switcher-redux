@@ -13,10 +13,10 @@ class Home extends React.Component {
     return (
     <div className={this.props.colorMode === "light" ? "home": "home darker-mode"}>
       <div className="row search-or-filter">
-        <div className="col-lg-6">
+        <div className="col-sm-7">
           <SearchBar />
         </div>
-        <div className="col-lg-6">
+        <div className="col-sm-5">
           <DropdownFilter />
         </div>
       </div>

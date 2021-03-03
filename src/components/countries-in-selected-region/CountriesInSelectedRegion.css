@@ -1,3 +1,21 @@
 .countries-in-selected-region {
-  padding: 2% 15%;
+  padding: 2% 12%;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .countries-in-selected-region {
+    padding: 2% 8%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .countries-in-selected-region {
+    padding: 2% 5%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .countries-in-selected-region {
+    padding: 2% 5%;
+  }
 }

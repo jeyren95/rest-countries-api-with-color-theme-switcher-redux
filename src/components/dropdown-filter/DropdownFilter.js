@@ -28,7 +28,8 @@ class DropdownFilter extends React.Component {
       <div className="dropdown-filter">
         <button
         className={this.props.colorMode === "light" ? "btn dropdown-toggle" : "btn dropdown-toggle dark-mode"}
-        type="button" id="dropdownMenu"
+        type="button"
+        id="dropdownMenu"
         data-toggle="dropdown"
         aria-haspopup="true"
         aria-expanded="false"

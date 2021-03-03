@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 import {applyDarkMode, applyLightMode} from "../../actions";
-import {Link} from "react-router-dom"
+
 
 import "./Header.css"
 
@@ -11,9 +11,9 @@ class Header extends React.Component {
         <div className={this.props.colorMode === "light" ? "header": "header dark-mode"}>
           <div className="row">
             <div className="col-7">
-              <Link to="/" style={{textDecoration:"none", color:"#111517"}}>
-                <h2>Where in the world?</h2>
-              </Link>
+
+              <h2>Where in the world?</h2>
+
 
             </div>
             <div className="col-5">

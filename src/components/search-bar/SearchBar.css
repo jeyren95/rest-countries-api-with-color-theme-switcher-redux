@@ -1,5 +1,5 @@
 .search-bar input {
-  padding: 3% 2% 3% 10% ;
+  padding: 2.5% 2% 2.5% 9% ;
   width: 80%;
   border: none;
   box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
@@ -22,5 +22,39 @@
   .search-bar i {
     top: 18px;
     left: 45px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .search-bar input {
+    width: 100%;
+    padding: 4% 2% 4% 13%;
+  }
+  .search-bar i {
+    top: 12px;
+    left: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .search-bar input {
+    width: 100%;
+    padding: 3% 2% 3% 13%;
+  }
+  .search-bar i {
+    top: 12px;
+    left: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .search-bar input {
+    width: 100%;
+    padding: 3% 2% 3% 11%;
+
+  }
+  .search-bar i {
+    top: 15px;
+    left: 35px;
   }
 }

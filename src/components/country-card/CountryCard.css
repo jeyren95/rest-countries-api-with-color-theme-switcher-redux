@@ -2,6 +2,11 @@
   font-weight: 800;
 }
 
+.each-country img {
+  width: 100%;
+  height: auto;
+}
+
 .each-country h5 {
   margin-bottom: 8%;
 }

@@ -8,7 +8,7 @@ body {
 }
 
 .search-or-filter {
-  padding: 2% 15%;
+  padding: 2% 12%;
   margin-bottom: 5%;
 }
 
@@ -16,5 +16,23 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   .search-or-filter {
     padding: 10% 3% 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .search-or-filter {
+    padding: 5% 7%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .search-or-filter {
+    padding: 5% 5%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .search-or-filter {
+    padding: 5% 5%;
   }
 }

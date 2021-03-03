@@ -1,23 +1,37 @@
 .country-details {
-  padding: 2% 15%;
+  padding: 2% 12%;
   height: 100vh;
 }
 
-.country-details img {
+.country-flag img {
   width: 90%;
   height: auto;
 }
 
-.country-details h1, .country-details span {
+.details {
+  display: grid;
+  align-content: center;
+}
+
+.details h2, .details span {
   font-weight: 800;
 }
 
-.country-details h1 {
+.details h2 {
   margin-bottom: 5%;
 }
 
-.back-button {
+.details .col-lg-6 {
+  margin-bottom: 7%;
+}
+
+.details p {
   margin-bottom: 3%;
+}
+
+
+.back-button {
+  margin-bottom: 5%;
   border: none;
   box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
   padding: 0.5% 3%;
@@ -26,4 +40,85 @@
 .arrow {
   position: relative;
   right: 12%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .country-details {
+    padding: 10% 7%;
+  }
+  .country-flag img {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .border-countries {
+    margin-bottom: 15%;
+  }
+
+  .border-countries .col-lg-3 {
+    margin-bottom: 3%;
+  }
+
+  .back-button {
+    margin-bottom: 15%;
+    padding: 2% 8%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .country-details {
+    padding: 8% 10%;
+  }
+  .country-flag img {
+    margin-bottom: 7%;
+  }
+  .details .col-lg-6 {
+    margin-bottom: 5%;
+  }
+  .details p {
+    margin-bottom: 1.5%;
+  }
+  .border-countries {
+    margin-bottom: 7%;
+  }
+  .border-countries .col-lg-3 {
+    margin-bottom: 2%;
+  }
+  .back-button {
+    margin-bottom: 8%;
+    padding: 1.3% 5%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .country-details {
+    padding: 8% 7%;
+  }
+  .country-flag img {
+    width: 90%;
+    margin-bottom: 7%;
+  }
+  .details .col-lg-6 {
+    margin-bottom: 5%;
+  }
+  .details p {
+    margin-bottom: 1.5%;
+  }
+  .border-countries {
+    margin-bottom: 10%;
+  }
+  .border-countries .col-lg-3 {
+    margin-bottom: 1%;
+  }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .country-details {
+    padding: 5% 5%;
+  }
+  .details p {
+    margin-bottom: 4%;
+  }
+
 }

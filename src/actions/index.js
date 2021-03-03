@@ -10,6 +10,13 @@ export const inputDesiredCountry = (country) => {
   });
 }
 
+export const clickDesiredCountry = (country) => {
+  return ({
+    type: "CLICK_DESIRED_COUNTRY",
+    payload: country
+  })
+}
+
 export const clickBorderCountry = (borderCountry) => {
   return ({
     type: "CLICK_BORDER_COUNTRY",

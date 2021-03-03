@@ -9,6 +9,8 @@ export default (state = "", action) => {
       return action.payload
     case "CLICK_BORDER_COUNTRY":
       return action.payload
+    case "CLICK_DESIRED_COUNTRY":
+      return action.payload
     default:
       return state
   }
