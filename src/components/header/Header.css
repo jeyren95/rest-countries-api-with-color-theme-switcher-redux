@@ -1,10 +1,15 @@
 .header {
   box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
   padding: 2% 12%;
+  background-color: white;
 }
 
 .header h2 {
   font-weight: 800;
+}
+
+.header h2:hover {
+  text-decoration: none;
 }
 
 .header p {

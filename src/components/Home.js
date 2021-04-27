@@ -8,7 +8,6 @@ import CountriesInSelectedRegion from "./countries-in-selected-region/CountriesI
 
 class Home extends React.Component {
 
-
   render() {
     return (
     <div className={this.props.colorMode === "light" ? "home": "home darker-mode"}>

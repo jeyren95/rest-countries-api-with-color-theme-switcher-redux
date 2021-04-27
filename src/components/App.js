@@ -8,6 +8,7 @@ import CountryDetails from "./country-details/CountryDetails";
 import history from "../history";
 
 class App extends React.Component {
+
   render() {
     return (
       <Router history={history}>

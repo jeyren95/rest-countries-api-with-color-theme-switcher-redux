@@ -4,6 +4,7 @@
   border: none;
   box-shadow: 0 3px 20px 1px rgba(124, 132, 153, 0.22);
   border-radius: 6px;
+  outline: none;
 }
 
 .search-bar i {
